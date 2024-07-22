@@ -1,0 +1,131 @@
+
+.tot-box{
+  height: 35%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:hsl(217, 19%, 38%);
+  border-radius: 20PX;
+}
+.tittle{
+  height: 10%;
+  width: 100%;
+  text-align: center;
+}
+.titlecard{
+  color:hsl(150, 100%, 66%);
+  font-size: medium;
+  font-weight: 500;
+}
+.advice
+{
+  height: 50%;
+  margin-top: 5%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+p{
+  text-align: center;
+
+}
+button{
+  background-color: greenyellow;
+  font-size: medium;
+  font-weight: 700;
+  padding: 10px;
+  height: 40px;
+  width: 40px;
+  border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+  margin-top:-15px;
+  border-radius: 20px;
+  border-radius: 50%;
+}
+b{
+  color:greenyellow;
+  font-weight:400 ;
+}
+p{
+  color: white;
+  font-weight: 600;
+}
+.class{
+  height: 1%;
+  width: 60%;
+  opacity: 60%;
+  border-bottom:1px solid  white;
+}
+.design{
+  height: 20%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img{
+  height: 70%;
+  width: 20%;
+  color: white;
+}
+button img{
+  height:80%;
+  width: 80%;
+}
+button:hover{
+  box-shadow: 1px 1px 10px 5px yellowgreen ;
+}
+@media only screen and (max-width: 420px) {
+  .tot-box{
+    height: 35%;
+    width: 90%;
+  }
+  .advice
+  {
+    margin-top: 15%;
+    height: 50%;  
+    width: 90%;
+  }
+  p{
+    font-weight: 400;
+  }
+  .tittle{
+    height: 10%;
+  }
+  .titlecard{
+    font-weight: 400;
+  }
+
+}
+@media only screen and (min-width: 421px) and (max-width:750px){
+  /* #root{
+    background-color: blueviolet;
+  } */
+  .tot-box{
+    height: 35%;
+    width: 60%;
+  }
+  .advice
+  {
+    margin-top: 5%;
+    height: 50%;  
+    width: 90%;
+  }
+  p{
+    font-weight: 400;
+  }
+  .tittle{
+    height: 10%;
+  }
+  .titlecard{
+    font-weight: 400;
+  }
+
+
+}
